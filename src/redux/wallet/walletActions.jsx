@@ -4,6 +4,7 @@ import { ethers } from "ethers";
 export const connectWallet = () => async (dispatch) => {
   try {
     const ethereumProvider = await detectEthereumProvider();
+    //const ethereumProvider = await detectEthereumProvider();
 
     if (!ethereumProvider) {
       alert("Please install MetaMask!");
