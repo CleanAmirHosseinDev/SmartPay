@@ -29,25 +29,31 @@
 برای اجرای این پروژه در سیستم خود، مراحل زیر را دنبال کنید:
 
 ### ۱. پیش‌نیازها
+
 - [Node.js](https://nodejs.org/) (نسخه 16 یا بالاتر)
 - [npm](https://www.npmjs.com/) یا [Yarn](https://yarnpkg.com/)
 
 ### ۲. کلون کردن پروژه
+
 ```bash
 git clone <REPOSITORY_URL>
 cd <PROJECT_DIRECTORY>
 ```
 
 ### ۳. نصب وابستگی‌ها
+
 پروژه را با استفاده از npm نصب کنید:
+
 ```bash
 npm install
 ```
 
 ### ۴. پیکربندی متغیرهای محیطی
+
 برای اتصال به Supabase، باید کلیدهای پروژه خود را در یک فایل `.env` قرار دهید.
 
 ابتدا، یک فایل به نام `.env` در ریشه اصلی پروژه ایجاد کنید:
+
 ```bash
 touch .env
 ```
@@ -58,18 +64,22 @@ touch .env
 REACT_APP_SUPABASE_URL=https://<your-project-ref>.supabase.co
 REACT_APP_SUPABASE_ANON_KEY=<your-supabase-anon-key>
 ```
+
 **نکته امنیتی:** این فایل به `.gitignore` اضافه شده است تا از ثبت کلیدهای شما در تاریخچه Git جلوگیری شود.
 
 ### ۵. اجرای پروژه
+
 حالا می‌توانید سرور توسعه را اجرا کنید:
+
 ```bash
 npm start
 ```
+
 اپلیکیشن در آدرس `http://localhost:3000` در دسترس خواهد بود.
 
 ---
 
-##  scripts-available اسکریپت‌های موجود
+## scripts-available اسکریپت‌های موجود
 
 - `npm start`: اجرای برنامه در حالت توسعه.
 - `npm run build`: ساخت نسخه نهایی پروژه برای استقرار.
