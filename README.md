@@ -79,7 +79,8 @@ npm start
 
 ---
 
-## scripts-available اسکریپت‌های موجود
+## scripts-available اسکریپت موجود
+
 
 - `npm start`: اجرای برنامه در حالت توسعه.
 - `npm run build`: ساخت نسخه نهایی پروژه برای استقرار.
